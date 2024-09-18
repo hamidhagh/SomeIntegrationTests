@@ -1,0 +1,6 @@
+services:
+  customers.api:
+    image: ${DOCKER_REGISTRY-}customersapi
+    build:
+      context: WebApiTesting/src/Customers.Api
+      dockerfile: Dockerfile
