@@ -9,11 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2E33C18A-0AB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{63551AC1-9606-44CF-9FF7-C4C259A7E799}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api", "WebApiTesting\src\Customers.Api\Customers.Api.csproj", "{58384D9B-A15D-4A60-8318-2EE014A392E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api", "WebApiTesting\src\Customers.Api\Customers.Api.csproj", "{58384D9B-A15D-4A60-8318-2EE014A392E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeApi", "WebApiTesting\src\FakeApi\FakeApi.csproj", "{78C314A1-DBE1-4747-82C9-20AF832E4AA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeApi", "WebApiTesting\src\FakeApi\FakeApi.csproj", "{78C314A1-DBE1-4747-82C9-20AF832E4AA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.Api.Tests.Integration", "WebApiTesting\test\Customers.Api.Tests.Integration\Customers.Api.Tests.Integration.csproj", "{FE519F3D-C9ED-41E9-895D-A55ABA937FF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.Api.Tests.Integration", "WebApiTesting\test\Customers.Api.Tests.Integration\Customers.Api.Tests.Integration.csproj", "{FE519F3D-C9ED-41E9-895D-A55ABA937FF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebUITesting", "WebUITesting", "{173FBE75-698F-42E7-A61D-1D470AA36A7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7304AA7F-A6BB-4CBF-8311-F6AFED0F221A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ABC87DB5-DDFB-4C78-9BB8-E3401E479113}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Customers.WebApp", "WebUITesting\src\Customers.WebApp\Customers.WebApp.csproj", "{CF2BADF2-0A22-445C-8BD1-CF9D224FB316}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers.WebApp.Tests.Integration", "WebUITesting\test\Customers.WebApp.Tests.Integration\Customers.WebApp.Tests.Integration.csproj", "{ECCE3FD9-EDAE-441A-97FB-FE0BA914DBDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,14 @@ Global
 		{FE519F3D-C9ED-41E9-895D-A55ABA937FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE519F3D-C9ED-41E9-895D-A55ABA937FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE519F3D-C9ED-41E9-895D-A55ABA937FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2BADF2-0A22-445C-8BD1-CF9D224FB316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2BADF2-0A22-445C-8BD1-CF9D224FB316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2BADF2-0A22-445C-8BD1-CF9D224FB316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2BADF2-0A22-445C-8BD1-CF9D224FB316}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECCE3FD9-EDAE-441A-97FB-FE0BA914DBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCE3FD9-EDAE-441A-97FB-FE0BA914DBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCE3FD9-EDAE-441A-97FB-FE0BA914DBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCE3FD9-EDAE-441A-97FB-FE0BA914DBDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +61,10 @@ Global
 		{58384D9B-A15D-4A60-8318-2EE014A392E2} = {2E33C18A-0ABF-4C98-9B36-9985B2F441BA}
 		{78C314A1-DBE1-4747-82C9-20AF832E4AA6} = {2E33C18A-0ABF-4C98-9B36-9985B2F441BA}
 		{FE519F3D-C9ED-41E9-895D-A55ABA937FF7} = {63551AC1-9606-44CF-9FF7-C4C259A7E799}
+		{7304AA7F-A6BB-4CBF-8311-F6AFED0F221A} = {173FBE75-698F-42E7-A61D-1D470AA36A7A}
+		{ABC87DB5-DDFB-4C78-9BB8-E3401E479113} = {173FBE75-698F-42E7-A61D-1D470AA36A7A}
+		{CF2BADF2-0A22-445C-8BD1-CF9D224FB316} = {7304AA7F-A6BB-4CBF-8311-F6AFED0F221A}
+		{ECCE3FD9-EDAE-441A-97FB-FE0BA914DBDD} = {ABC87DB5-DDFB-4C78-9BB8-E3401E479113}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {61C27680-21BC-49ED-9CC7-D4B9A29859F3}
